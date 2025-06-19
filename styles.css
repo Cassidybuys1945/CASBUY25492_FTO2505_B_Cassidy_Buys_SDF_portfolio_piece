@@ -1,0 +1,70 @@
+/* Group 5 */
+.header{
+position: absolute;
+width: 1321.79px;
+height: 300.1px;
+left: calc(50% - 1321.79px/2 - 0.1px);
+top: 63px;
+}
+.content-grid{/* Frame 10 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 41px 28px;
+gap: 10px;
+
+position: absolute;
+width: 563.9px;
+height: 428.37px;
+left: 62.92px;
+top: 411.43px;
+
+background: #FFFFFF;
+border-radius: 29.042px;
+}
+/* Frame 6 */
+
+/* Auto layout */
+.skills-grid{display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 28px;
+gap: 39px;
+position: absolute;
+width: 706px;
+height: 429px;
+left: 675px;
+top: 411px;
+background: #FFFFFF;
+border-radius: 29.042px;
+}
+
+/* Group 8 */
+
+.projects-section{position: absolute;
+width: 1318.08px;
+height: 755.09px;
+left: 63px;
+top: 888px;
+}
+/* Frame 16 */
+
+/* Auto layout */
+.education-tools-grid{display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 29px;
+gap: 10px;
+
+position: absolute;
+width: 994.69px;
+height: 847.06px;
+left: 63px;
+top: 1691.09px;
+
+background: #FFFFFF;
+border-radius: 29.042px;
+}
