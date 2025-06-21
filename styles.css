@@ -1,70 +1,58 @@
-/* Group 5 */
-.header{
-position: absolute;
-width: 1321.79px;
-height: 300.1px;
-left: calc(50% - 1321.79px/2 - 0.1px);
-top: 63px;
-}
-.content-grid{/* Frame 10 */
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f0f0;
+    }
 
-/* Auto layout */
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 41px 28px;
-gap: 10px;
+    .profile-group {
+      position: absolute;
+      width: 1321.79px;
+      height: 300.1px;
+      left: 50%;
+      top: 63px;
+      transform: translateX(-50%);
+    }
 
-position: absolute;
-width: 563.9px;
-height: 428.37px;
-left: 62.92px;
-top: 411.43px;
+    .profile-pic {
+      position: absolute;
+      width: 300.1px;
+      height: 300.1px;
+      left: 59px;
+      top: 0;
+      background: url('profile.jpg') center center / cover no-repeat;
+      border-radius: 29.042px;
+    }
 
-background: #FFFFFF;
-border-radius: 29.042px;
-}
-/* Frame 6 */
+    .profile-info {
+      position: absolute;
+      width: 994.69px;
+      height: 300.1px;
+      left: 386.1px;
+      top: 0;
+      background: #FFFFFF;
+      border-radius: 29.042px;
 
-/* Auto layout */
-.skills-grid{display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 28px;
-gap: 39px;
-position: absolute;
-width: 706px;
-height: 429px;
-left: 675px;
-top: 411px;
-background: #FFFFFF;
-border-radius: 29.042px;
-}
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 59px 69px;
+      gap: 10px;
+    }
 
-/* Group 8 */
+    .name {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 104%;
+      color: #000000;
+      height: 37px;
+    }
 
-.projects-section{position: absolute;
-width: 1318.08px;
-height: 755.09px;
-left: 63px;
-top: 888px;
-}
-/* Frame 16 */
-
-/* Auto layout */
-.education-tools-grid{display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 29px;
-gap: 10px;
-
-position: absolute;
-width: 994.69px;
-height: 847.06px;
-left: 63px;
-top: 1691.09px;
-
-background: #FFFFFF;
-border-radius: 29.042px;
-}
+    .role {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 151%;
+      color: #5C5C5C;
+      height: 132px;
+      margin-top: 12px;
+    }
+  
