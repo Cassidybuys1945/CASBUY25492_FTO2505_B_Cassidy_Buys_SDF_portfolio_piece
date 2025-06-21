@@ -50,7 +50,7 @@ body {
     object-fit: cover;
 }
 
-/* .profile-photo::before {
+.profile-photo::before {
     content: '';
     position: absolute;
     top: 20%;
@@ -60,9 +60,9 @@ body {
     height: 40px;
     background: #654321;
     border-radius: 50%;
-} */
+}
 
-/* .profile-photo::after {
+.profile-photo::after {
     content: '';
     position: absolute;
     bottom: 10%;
@@ -72,7 +72,7 @@ body {
     height: 60px;
     background: #654321;
     border-radius: 50px 50px 0 0;
-} */
+}
 
 .header-content h1 {
     font-family: 'Inter', sans-serif;
@@ -192,16 +192,7 @@ body {
     gap: 12px;
 }
 
-/* .skill-item {
-    background: #ECF4F1;
-    padding: 8px 14px;
-    border-radius: 6px;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    color: #000000;
-    text-align: center;
-    letter-spacing: 2px; */
+
     
 /* } */
 .skill-item {
@@ -232,7 +223,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    background: #FFFFFF;
+    background: #b8d9c5;
     color: #000000;
     
 }
